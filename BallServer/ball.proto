@@ -1,0 +1,159 @@
+syntax = "proto3";
+package ball_net;
+
+enum EventId
+{
+    None = 0;
+    Id_AuthReq = 10;
+    Id_AuthAck = 11;
+    Id_RoomListReq = 12;
+    Id_RoomListAck = 13;
+    Id_CreateRoomReq = 14;
+    Id_CreateRoomAck = 15;
+    Id_JoinRoomReq = 16;
+    Id_JoinRoomAck = 17;
+    Id_ExitRoomReq = 18;
+    Id_ExitRoomAck = 19;
+    Id_OtherJoinRoomNotify = 20;
+    Id_OtherExitRoomNotify = 21;
+    Id_ReadyReq = 22;
+    Id_readyAck = 23;
+    Id_OtherReadyNotify = 24;
+    Id_StartGameReq = 25;
+    Id_StartGameAck = 26;
+    Id_UploadFrameData = 27;
+    Id_FrameDataNotify = 28;
+}
+
+message PacketBase
+{
+    optional EventId event_id = 1;
+    optional bytes payload = 2;
+    optional int32 result = 3;
+}
+//登录
+message AuthReq
+{
+    optional int32 color = 1;
+}
+
+message AuthAck
+{
+    optional int32 user_id = 1;
+}
+
+//房间相关
+message UserInfo
+{
+    optional int32 user_id = 1;
+    optional bool ready = 2;
+    optional int32 color = 3;
+}
+message RoomInfo
+{
+    optional int32 room_id = 1;
+    repeated UserInfo users = 2;
+    optional bool is_gameing = 3;
+}
+message RoomListReq
+{
+
+}
+
+message RoomListAck
+{
+    repeated RoomInfo rooms = 1;
+}
+
+message CreateRoomReq
+{
+    optional string room_name = 1;
+}
+
+message CreateRoomAck
+{
+    optional int32 room_id = 1;
+}
+
+message JoinRoomReq
+{
+    optional int32 room_id = 1;
+}
+
+message JoinRoomAck
+{
+    RoomInfo room_info = 1;
+}
+
+message ExitRoomReq
+{
+
+}
+
+message ExitRoomAck
+{
+
+}
+
+message ReadyReq
+{
+    optional bool is_ready = 1;
+}
+
+message ReadyAck
+{
+
+}
+
+message OtherJoinRoomNotify
+{
+    optional UserInfo user_info = 1;
+}
+
+message OtherExitRoomNotify
+{
+    optional UserInfo user_info = 1;
+}
+
+message OtherReadyNotify
+{
+    optional UserInfo user_info = 1;
+}
+
+message StartGameReq
+{
+    optional int32 room_id = 1;
+}
+
+message StartGameAck
+{
+    optional int32 user_id = 1;
+    optional int32 room_id = 2;
+}
+
+message UploadFrameData
+{
+    optional int32 user_id = 1;
+    optional int32 room_id = 2;
+    repeated Command cmds = 3;
+}
+
+message Direction
+{
+    optional int32 vertial = 1;
+    optional int32 horizontal = 2;
+}
+//帧同步相关
+message Command
+{
+    optional int64 frame_index = 1;//当前帧序号
+    optional int64 frame_time = 2;//当前帧时间
+    optional int32 user_id = 3;//哪个玩家操作
+    optional Direction user_input_dir = 4;//玩家输入的方向
+}
+//服务器下发同步帧
+message FrameDataNotify
+{
+    optional int32 room_id = 1;
+    repeated Command cmds = 2;
+}
