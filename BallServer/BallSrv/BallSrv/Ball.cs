@@ -59,19 +59,20 @@ namespace BallNet {
             "ZGV4GAEgASgDSACIAQESFwoKZnJhbWVfdGltZRgCIAEoA0gBiAEBEhQKB3Vz",
             "ZXJfaWQYAyABKAVIAogBARIwCg51c2VyX2lucHV0X2RpchgEIAEoCzITLmJh",
             "bGxfbmV0LkRpcmVjdGlvbkgDiAEBQg4KDF9mcmFtZV9pbmRleEINCgtfZnJh",
-            "bWVfdGltZUIKCghfdXNlcl9pZEIRCg9fdXNlcl9pbnB1dF9kaXIiVAoPRnJh",
-            "bWVEYXRhTm90aWZ5EhQKB3Jvb21faWQYASABKAVIAIgBARIfCgRjbWRzGAIg",
-            "AygLMhEuYmFsbF9uZXQuQ29tbWFuZEIKCghfcm9vbV9pZCqkAwoHRXZlbnRJ",
-            "ZBIICgROb25lEAASDgoKSWRfQXV0aFJlcRAKEg4KCklkX0F1dGhBY2sQCxIS",
-            "Cg5JZF9Sb29tTGlzdFJlcRAMEhIKDklkX1Jvb21MaXN0QWNrEA0SFAoQSWRf",
-            "Q3JlYXRlUm9vbVJlcRAOEhQKEElkX0NyZWF0ZVJvb21BY2sQDxISCg5JZF9K",
-            "b2luUm9vbVJlcRAQEhIKDklkX0pvaW5Sb29tQWNrEBESEgoOSWRfRXhpdFJv",
-            "b21SZXEQEhISCg5JZF9FeGl0Um9vbUFjaxATEhoKFklkX090aGVySm9pblJv",
-            "b21Ob3RpZnkQFBIaChZJZF9PdGhlckV4aXRSb29tTm90aWZ5EBUSDwoLSWRf",
-            "UmVhZHlSZXEQFhIPCgtJZF9yZWFkeUFjaxAXEhcKE0lkX090aGVyUmVhZHlO",
-            "b3RpZnkQGBITCg9JZF9TdGFydEdhbWVSZXEQGRITCg9JZF9TdGFydEdhbWVB",
-            "Y2sQGhIWChJJZF9VcGxvYWRGcmFtZURhdGEQGxIWChJJZF9GcmFtZURhdGFO",
-            "b3RpZnkQHGIGcHJvdG8z"));
+            "bWVfdGltZUIKCghfdXNlcl9pZEIRCg9fdXNlcl9pbnB1dF9kaXIifgoPRnJh",
+            "bWVEYXRhTm90aWZ5EhQKB3Jvb21faWQYASABKAVIAIgBARIYCgtmcmFtZV9p",
+            "bmRleBgCIAEoA0gBiAEBEh8KBGNtZHMYAyADKAsyES5iYWxsX25ldC5Db21t",
+            "YW5kQgoKCF9yb29tX2lkQg4KDF9mcmFtZV9pbmRleCqkAwoHRXZlbnRJZBII",
+            "CgROb25lEAASDgoKSWRfQXV0aFJlcRAKEg4KCklkX0F1dGhBY2sQCxISCg5J",
+            "ZF9Sb29tTGlzdFJlcRAMEhIKDklkX1Jvb21MaXN0QWNrEA0SFAoQSWRfQ3Jl",
+            "YXRlUm9vbVJlcRAOEhQKEElkX0NyZWF0ZVJvb21BY2sQDxISCg5JZF9Kb2lu",
+            "Um9vbVJlcRAQEhIKDklkX0pvaW5Sb29tQWNrEBESEgoOSWRfRXhpdFJvb21S",
+            "ZXEQEhISCg5JZF9FeGl0Um9vbUFjaxATEhoKFklkX090aGVySm9pblJvb21O",
+            "b3RpZnkQFBIaChZJZF9PdGhlckV4aXRSb29tTm90aWZ5EBUSDwoLSWRfUmVh",
+            "ZHlSZXEQFhIPCgtJZF9yZWFkeUFjaxAXEhcKE0lkX090aGVyUmVhZHlOb3Rp",
+            "ZnkQGBITCg9JZF9TdGFydEdhbWVSZXEQGRITCg9JZF9TdGFydEdhbWVBY2sQ",
+            "GhIWChJJZF9VcGxvYWRGcmFtZURhdGEQGxIWChJJZF9GcmFtZURhdGFOb3Rp",
+            "ZnkQHGIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::BallNet.EventId), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -98,7 +99,7 @@ namespace BallNet {
             new pbr::GeneratedClrTypeInfo(typeof(global::BallNet.UploadFrameData), global::BallNet.UploadFrameData.Parser, new[]{ "UserId", "RoomId", "Cmds" }, new[]{ "UserId", "RoomId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::BallNet.Direction), global::BallNet.Direction.Parser, new[]{ "Vertial", "Horizontal" }, new[]{ "Vertial", "Horizontal" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::BallNet.Command), global::BallNet.Command.Parser, new[]{ "FrameIndex", "FrameTime", "UserId", "UserInputDir" }, new[]{ "FrameIndex", "FrameTime", "UserId", "UserInputDir" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::BallNet.FrameDataNotify), global::BallNet.FrameDataNotify.Parser, new[]{ "RoomId", "Cmds" }, new[]{ "RoomId" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::BallNet.FrameDataNotify), global::BallNet.FrameDataNotify.Parser, new[]{ "RoomId", "FrameIndex", "Cmds" }, new[]{ "RoomId", "FrameIndex" }, null, null, null)
           }));
     }
     #endregion
@@ -5220,6 +5221,7 @@ namespace BallNet {
     public FrameDataNotify(FrameDataNotify other) : this() {
       _hasBits0 = other._hasBits0;
       roomId_ = other.roomId_;
+      frameIndex_ = other.frameIndex_;
       cmds_ = other.cmds_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -5255,10 +5257,35 @@ namespace BallNet {
       _hasBits0 &= ~1;
     }
 
+    /// <summary>Field number for the "frame_index" field.</summary>
+    public const int FrameIndexFieldNumber = 2;
+    private long frameIndex_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public long FrameIndex {
+      get { if ((_hasBits0 & 2) != 0) { return frameIndex_; } else { return 0L; } }
+      set {
+        _hasBits0 |= 2;
+        frameIndex_ = value;
+      }
+    }
+    /// <summary>Gets whether the "frame_index" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasFrameIndex {
+      get { return (_hasBits0 & 2) != 0; }
+    }
+    /// <summary>Clears the value of the "frame_index" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearFrameIndex() {
+      _hasBits0 &= ~2;
+    }
+
     /// <summary>Field number for the "cmds" field.</summary>
-    public const int CmdsFieldNumber = 2;
+    public const int CmdsFieldNumber = 3;
     private static readonly pb::FieldCodec<global::BallNet.Command> _repeated_cmds_codec
-        = pb::FieldCodec.ForMessage(18, global::BallNet.Command.Parser);
+        = pb::FieldCodec.ForMessage(26, global::BallNet.Command.Parser);
     private readonly pbc::RepeatedField<global::BallNet.Command> cmds_ = new pbc::RepeatedField<global::BallNet.Command>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -5282,6 +5309,7 @@ namespace BallNet {
         return true;
       }
       if (RoomId != other.RoomId) return false;
+      if (FrameIndex != other.FrameIndex) return false;
       if(!cmds_.Equals(other.cmds_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -5291,6 +5319,7 @@ namespace BallNet {
     public override int GetHashCode() {
       int hash = 1;
       if (HasRoomId) hash ^= RoomId.GetHashCode();
+      if (HasFrameIndex) hash ^= FrameIndex.GetHashCode();
       hash ^= cmds_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -5314,6 +5343,10 @@ namespace BallNet {
         output.WriteRawTag(8);
         output.WriteInt32(RoomId);
       }
+      if (HasFrameIndex) {
+        output.WriteRawTag(16);
+        output.WriteInt64(FrameIndex);
+      }
       cmds_.WriteTo(output, _repeated_cmds_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -5329,6 +5362,10 @@ namespace BallNet {
         output.WriteRawTag(8);
         output.WriteInt32(RoomId);
       }
+      if (HasFrameIndex) {
+        output.WriteRawTag(16);
+        output.WriteInt64(FrameIndex);
+      }
       cmds_.WriteTo(ref output, _repeated_cmds_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
@@ -5342,6 +5379,9 @@ namespace BallNet {
       int size = 0;
       if (HasRoomId) {
         size += 1 + pb::CodedOutputStream.ComputeInt32Size(RoomId);
+      }
+      if (HasFrameIndex) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(FrameIndex);
       }
       size += cmds_.CalculateSize(_repeated_cmds_codec);
       if (_unknownFields != null) {
@@ -5358,6 +5398,9 @@ namespace BallNet {
       }
       if (other.HasRoomId) {
         RoomId = other.RoomId;
+      }
+      if (other.HasFrameIndex) {
+        FrameIndex = other.FrameIndex;
       }
       cmds_.Add(other.cmds_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -5379,7 +5422,11 @@ namespace BallNet {
             RoomId = input.ReadInt32();
             break;
           }
-          case 18: {
+          case 16: {
+            FrameIndex = input.ReadInt64();
+            break;
+          }
+          case 26: {
             cmds_.AddEntriesFrom(input, _repeated_cmds_codec);
             break;
           }
@@ -5402,7 +5449,11 @@ namespace BallNet {
             RoomId = input.ReadInt32();
             break;
           }
-          case 18: {
+          case 16: {
+            FrameIndex = input.ReadInt64();
+            break;
+          }
+          case 26: {
             cmds_.AddEntriesFrom(ref input, _repeated_cmds_codec);
             break;
           }

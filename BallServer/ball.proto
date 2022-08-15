@@ -155,5 +155,6 @@ message Command
 message FrameDataNotify
 {
     optional int32 room_id = 1;
-    repeated Command cmds = 2;
+    optional int64 frame_index = 2;
+    repeated Command cmds = 3;
 }
