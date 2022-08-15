@@ -135,7 +135,8 @@ message UploadFrameData
 {
     optional int32 user_id = 1;
     optional int32 room_id = 2;
-    repeated Command cmds = 3;
+    optional int64 frame_index = 3;
+    repeated Command cmds = 4;
 }
 
 message Direction
