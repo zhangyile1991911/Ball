@@ -159,6 +159,21 @@ namespace BallSrv
                 one.SendPacket<T>(id, result, msg, isReliable);
             }
         }
+
+        public void BroadcastFrameDataToUser(long frameIndex)
+        {
+            if (mFrameDic.ContainsKey(frameIndex) == false) return;
+            FrameDataNotify notify = new FrameDataNotify();
+            notify.RoomId = RoomId;
+            notify.FrameIndex = frameIndex;
+            foreach (var usercmds in mFrameDic[frameIndex])
+            {
+                foreach(var cmd in usercmds.Value)
+                {
+                    notify.Cmds.Add(cmd);
+                }
+            }
+        }
     }
 
     public class RoomMgr

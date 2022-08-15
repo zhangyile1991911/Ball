@@ -104,7 +104,7 @@ namespace BallSrv
         }
 
         void logicTrigger()
-        {
+        {//todo触发 生成食物的消息
 
         }
 
@@ -138,6 +138,10 @@ namespace BallSrv
         public override void OnReceiveCommand(Command cmd)
         {
             m_controlRoom.AddFrame(cmd.FrameIndex, cmd.UserId, cmd);
+            if(m_controlRoom.IsFrameCmdCollectAll(cmd.FrameIndex,m_controlRoom.RoomUserNum))
+            {
+                m_controlRoom.BroadcastFrameDataToUser(cmd.FrameIndex);
+            }
         }
 
         public override void Update()
