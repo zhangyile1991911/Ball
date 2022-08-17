@@ -56,24 +56,26 @@ namespace BallNet {
             "ZHMYBCADKAsyES5iYWxsX25ldC5Db21tYW5kQgoKCF91c2VyX2lkQgoKCF9y",
             "b29tX2lkQg4KDF9mcmFtZV9pbmRleCJVCglEaXJlY3Rpb24SFAoHdmVydGlh",
             "bBgBIAEoBUgAiAEBEhcKCmhvcml6b250YWwYAiABKAVIAYgBAUIKCghfdmVy",
-            "dGlhbEINCgtfaG9yaXpvbnRhbCLCAQoHQ29tbWFuZBIYCgtmcmFtZV9pbmRl",
+            "dGlhbEINCgtfaG9yaXpvbnRhbCL5AQoHQ29tbWFuZBIYCgtmcmFtZV9pbmRl",
             "eBgBIAEoA0gAiAEBEhcKCmZyYW1lX3RpbWUYAiABKANIAYgBARIUCgd1c2Vy",
             "X2lkGAMgASgFSAKIAQESMAoOdXNlcl9pbnB1dF9kaXIYBCABKAsyEy5iYWxs",
-            "X25ldC5EaXJlY3Rpb25IA4gBAUIOCgxfZnJhbWVfaW5kZXhCDQoLX2ZyYW1l",
-            "X3RpbWVCCgoIX3VzZXJfaWRCEQoPX3VzZXJfaW5wdXRfZGlyIn4KD0ZyYW1l",
-            "RGF0YU5vdGlmeRIUCgdyb29tX2lkGAEgASgFSACIAQESGAoLZnJhbWVfaW5k",
-            "ZXgYAiABKANIAYgBARIfCgRjbWRzGAMgAygLMhEuYmFsbF9uZXQuQ29tbWFu",
-            "ZEIKCghfcm9vbV9pZEIOCgxfZnJhbWVfaW5kZXgqpAMKB0V2ZW50SWQSCAoE",
-            "Tm9uZRAAEg4KCklkX0F1dGhSZXEQChIOCgpJZF9BdXRoQWNrEAsSEgoOSWRf",
-            "Um9vbUxpc3RSZXEQDBISCg5JZF9Sb29tTGlzdEFjaxANEhQKEElkX0NyZWF0",
-            "ZVJvb21SZXEQDhIUChBJZF9DcmVhdGVSb29tQWNrEA8SEgoOSWRfSm9pblJv",
-            "b21SZXEQEBISCg5JZF9Kb2luUm9vbUFjaxAREhIKDklkX0V4aXRSb29tUmVx",
-            "EBISEgoOSWRfRXhpdFJvb21BY2sQExIaChZJZF9PdGhlckpvaW5Sb29tTm90",
-            "aWZ5EBQSGgoWSWRfT3RoZXJFeGl0Um9vbU5vdGlmeRAVEg8KC0lkX1JlYWR5",
-            "UmVxEBYSDwoLSWRfcmVhZHlBY2sQFxIXChNJZF9PdGhlclJlYWR5Tm90aWZ5",
-            "EBgSEwoPSWRfU3RhcnRHYW1lUmVxEBkSEwoPSWRfU3RhcnRHYW1lQWNrEBoS",
-            "FgoSSWRfVXBsb2FkRnJhbWVEYXRhEBsSFgoSSWRfRnJhbWVEYXRhTm90aWZ5",
-            "EBxiBnByb3RvMw=="));
+            "X25ldC5EaXJlY3Rpb25IA4gBARIoCghiYWl0X3BvcxgFIAEoCzIRLmJhbGxf",
+            "bmV0LkJhaXRQb3NIBIgBAUIOCgxfZnJhbWVfaW5kZXhCDQoLX2ZyYW1lX3Rp",
+            "bWVCCgoIX3VzZXJfaWRCEQoPX3VzZXJfaW5wdXRfZGlyQgsKCV9iYWl0X3Bv",
+            "cyJ+Cg9GcmFtZURhdGFOb3RpZnkSFAoHcm9vbV9pZBgBIAEoBUgAiAEBEhgK",
+            "C2ZyYW1lX2luZGV4GAIgASgDSAGIAQESHwoEY21kcxgDIAMoCzIRLmJhbGxf",
+            "bmV0LkNvbW1hbmRCCgoIX3Jvb21faWRCDgoMX2ZyYW1lX2luZGV4IkEKB0Jh",
+            "aXRQb3MSEQoEcG9zeBgBIAEoBUgAiAEBEhEKBHBvc3kYAiABKAVIAYgBAUIH",
+            "CgVfcG9zeEIHCgVfcG9zeSqkAwoHRXZlbnRJZBIICgROb25lEAASDgoKSWRf",
+            "QXV0aFJlcRAKEg4KCklkX0F1dGhBY2sQCxISCg5JZF9Sb29tTGlzdFJlcRAM",
+            "EhIKDklkX1Jvb21MaXN0QWNrEA0SFAoQSWRfQ3JlYXRlUm9vbVJlcRAOEhQK",
+            "EElkX0NyZWF0ZVJvb21BY2sQDxISCg5JZF9Kb2luUm9vbVJlcRAQEhIKDklk",
+            "X0pvaW5Sb29tQWNrEBESEgoOSWRfRXhpdFJvb21SZXEQEhISCg5JZF9FeGl0",
+            "Um9vbUFjaxATEhoKFklkX090aGVySm9pblJvb21Ob3RpZnkQFBIaChZJZF9P",
+            "dGhlckV4aXRSb29tTm90aWZ5EBUSDwoLSWRfUmVhZHlSZXEQFhIPCgtJZF9y",
+            "ZWFkeUFjaxAXEhcKE0lkX090aGVyUmVhZHlOb3RpZnkQGBITCg9JZF9TdGFy",
+            "dEdhbWVSZXEQGRITCg9JZF9TdGFydEdhbWVBY2sQGhIWChJJZF9VcGxvYWRG",
+            "cmFtZURhdGEQGxIWChJJZF9GcmFtZURhdGFOb3RpZnkQHGIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::BallNet.EventId), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -99,8 +101,9 @@ namespace BallNet {
             new pbr::GeneratedClrTypeInfo(typeof(global::BallNet.StartGameAck), global::BallNet.StartGameAck.Parser, new[]{ "UserId", "RoomId" }, new[]{ "UserId", "RoomId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::BallNet.UploadFrameData), global::BallNet.UploadFrameData.Parser, new[]{ "UserId", "RoomId", "FrameIndex", "Cmds" }, new[]{ "UserId", "RoomId", "FrameIndex" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::BallNet.Direction), global::BallNet.Direction.Parser, new[]{ "Vertial", "Horizontal" }, new[]{ "Vertial", "Horizontal" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::BallNet.Command), global::BallNet.Command.Parser, new[]{ "FrameIndex", "FrameTime", "UserId", "UserInputDir" }, new[]{ "FrameIndex", "FrameTime", "UserId", "UserInputDir" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::BallNet.FrameDataNotify), global::BallNet.FrameDataNotify.Parser, new[]{ "RoomId", "FrameIndex", "Cmds" }, new[]{ "RoomId", "FrameIndex" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::BallNet.Command), global::BallNet.Command.Parser, new[]{ "FrameIndex", "FrameTime", "UserId", "UserInputDir", "BaitPos" }, new[]{ "FrameIndex", "FrameTime", "UserId", "UserInputDir", "BaitPos" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::BallNet.FrameDataNotify), global::BallNet.FrameDataNotify.Parser, new[]{ "RoomId", "FrameIndex", "Cmds" }, new[]{ "RoomId", "FrameIndex" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::BallNet.BaitPos), global::BallNet.BaitPos.Parser, new[]{ "Posx", "Posy" }, new[]{ "Posx", "Posy" }, null, null, null)
           }));
     }
     #endregion
@@ -4910,6 +4913,7 @@ namespace BallNet {
       frameTime_ = other.frameTime_;
       userId_ = other.userId_;
       userInputDir_ = other.userInputDir_ != null ? other.userInputDir_.Clone() : null;
+      baitPos_ = other.baitPos_ != null ? other.baitPos_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -5018,6 +5022,18 @@ namespace BallNet {
       }
     }
 
+    /// <summary>Field number for the "bait_pos" field.</summary>
+    public const int BaitPosFieldNumber = 5;
+    private global::BallNet.BaitPos baitPos_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::BallNet.BaitPos BaitPos {
+      get { return baitPos_; }
+      set {
+        baitPos_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public override bool Equals(object other) {
@@ -5037,6 +5053,7 @@ namespace BallNet {
       if (FrameTime != other.FrameTime) return false;
       if (UserId != other.UserId) return false;
       if (!object.Equals(UserInputDir, other.UserInputDir)) return false;
+      if (!object.Equals(BaitPos, other.BaitPos)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -5048,6 +5065,7 @@ namespace BallNet {
       if (HasFrameTime) hash ^= FrameTime.GetHashCode();
       if (HasUserId) hash ^= UserId.GetHashCode();
       if (userInputDir_ != null) hash ^= UserInputDir.GetHashCode();
+      if (baitPos_ != null) hash ^= BaitPos.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -5082,6 +5100,10 @@ namespace BallNet {
         output.WriteRawTag(34);
         output.WriteMessage(UserInputDir);
       }
+      if (baitPos_ != null) {
+        output.WriteRawTag(42);
+        output.WriteMessage(BaitPos);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -5108,6 +5130,10 @@ namespace BallNet {
         output.WriteRawTag(34);
         output.WriteMessage(UserInputDir);
       }
+      if (baitPos_ != null) {
+        output.WriteRawTag(42);
+        output.WriteMessage(BaitPos);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -5129,6 +5155,9 @@ namespace BallNet {
       }
       if (userInputDir_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(UserInputDir);
+      }
+      if (baitPos_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(BaitPos);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -5156,6 +5185,12 @@ namespace BallNet {
           UserInputDir = new global::BallNet.Direction();
         }
         UserInputDir.MergeFrom(other.UserInputDir);
+      }
+      if (other.baitPos_ != null) {
+        if (baitPos_ == null) {
+          BaitPos = new global::BallNet.BaitPos();
+        }
+        BaitPos.MergeFrom(other.BaitPos);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -5191,6 +5226,13 @@ namespace BallNet {
             input.ReadMessage(UserInputDir);
             break;
           }
+          case 42: {
+            if (baitPos_ == null) {
+              BaitPos = new global::BallNet.BaitPos();
+            }
+            input.ReadMessage(BaitPos);
+            break;
+          }
         }
       }
     #endif
@@ -5223,6 +5265,13 @@ namespace BallNet {
               UserInputDir = new global::BallNet.Direction();
             }
             input.ReadMessage(UserInputDir);
+            break;
+          }
+          case 42: {
+            if (baitPos_ == null) {
+              BaitPos = new global::BallNet.BaitPos();
+            }
+            input.ReadMessage(BaitPos);
             break;
           }
         }
@@ -5506,6 +5555,260 @@ namespace BallNet {
           }
           case 26: {
             cmds_.AddEntriesFrom(ref input, _repeated_cmds_codec);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  public sealed partial class BaitPos : pb::IMessage<BaitPos>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<BaitPos> _parser = new pb::MessageParser<BaitPos>(() => new BaitPos());
+    private pb::UnknownFieldSet _unknownFields;
+    private int _hasBits0;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<BaitPos> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::BallNet.BallReflection.Descriptor.MessageTypes[24]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public BaitPos() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public BaitPos(BaitPos other) : this() {
+      _hasBits0 = other._hasBits0;
+      posx_ = other.posx_;
+      posy_ = other.posy_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public BaitPos Clone() {
+      return new BaitPos(this);
+    }
+
+    /// <summary>Field number for the "posx" field.</summary>
+    public const int PosxFieldNumber = 1;
+    private int posx_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int Posx {
+      get { if ((_hasBits0 & 1) != 0) { return posx_; } else { return 0; } }
+      set {
+        _hasBits0 |= 1;
+        posx_ = value;
+      }
+    }
+    /// <summary>Gets whether the "posx" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasPosx {
+      get { return (_hasBits0 & 1) != 0; }
+    }
+    /// <summary>Clears the value of the "posx" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearPosx() {
+      _hasBits0 &= ~1;
+    }
+
+    /// <summary>Field number for the "posy" field.</summary>
+    public const int PosyFieldNumber = 2;
+    private int posy_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int Posy {
+      get { if ((_hasBits0 & 2) != 0) { return posy_; } else { return 0; } }
+      set {
+        _hasBits0 |= 2;
+        posy_ = value;
+      }
+    }
+    /// <summary>Gets whether the "posy" field is set</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool HasPosy {
+      get { return (_hasBits0 & 2) != 0; }
+    }
+    /// <summary>Clears the value of the "posy" field</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearPosy() {
+      _hasBits0 &= ~2;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as BaitPos);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(BaitPos other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Posx != other.Posx) return false;
+      if (Posy != other.Posy) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (HasPosx) hash ^= Posx.GetHashCode();
+      if (HasPosy) hash ^= Posy.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (HasPosx) {
+        output.WriteRawTag(8);
+        output.WriteInt32(Posx);
+      }
+      if (HasPosy) {
+        output.WriteRawTag(16);
+        output.WriteInt32(Posy);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (HasPosx) {
+        output.WriteRawTag(8);
+        output.WriteInt32(Posx);
+      }
+      if (HasPosy) {
+        output.WriteRawTag(16);
+        output.WriteInt32(Posy);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (HasPosx) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Posx);
+      }
+      if (HasPosy) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Posy);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(BaitPos other) {
+      if (other == null) {
+        return;
+      }
+      if (other.HasPosx) {
+        Posx = other.Posx;
+      }
+      if (other.HasPosy) {
+        Posy = other.Posy;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            Posx = input.ReadInt32();
+            break;
+          }
+          case 16: {
+            Posy = input.ReadInt32();
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            Posx = input.ReadInt32();
+            break;
+          }
+          case 16: {
+            Posy = input.ReadInt32();
             break;
           }
         }

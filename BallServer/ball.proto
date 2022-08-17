@@ -151,6 +151,7 @@ message Command
     optional int64 frame_time = 2;//当前帧时间
     optional int32 user_id = 3;//哪个玩家操作
     optional Direction user_input_dir = 4;//玩家输入的方向
+    optional BaitPos bait_pos = 5;
 }
 //服务器下发同步帧
 message FrameDataNotify
@@ -158,4 +159,10 @@ message FrameDataNotify
     optional int32 room_id = 1;
     optional int64 frame_index = 2;
     repeated Command cmds = 3;
+}
+
+message BaitPos
+{
+    optional int32 posx = 1;
+    optional int32 posy = 2;
 }
