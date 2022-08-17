@@ -265,6 +265,7 @@ void onReadyReq(PacketBase pb, NetPeer peer)
     Console.WriteLine("用户请求准备 {0}",req.IsReady);
 
     user.IsReady = req.IsReady;
+    
 
     ReadyAck ack = new ReadyAck();
     user.SendPacket<ReadyAck>(EventId.IdReadyAck, 0, ack);
@@ -272,6 +273,11 @@ void onReadyReq(PacketBase pb, NetPeer peer)
     OtherReadyNotify notify = new OtherReadyNotify();
     notify.UserInfo = user.ToUserInfo();
     room.BroadcastToUser(EventId.IdOtherReadyNotify, 0, notify);
+
+    if (room.CheckUserAllReady())
+    {
+        room.RoomState = new RoomStateReady(room);
+    }
 }
 
 void onStartGameAck(PacketBase pb,NetPeer peer)
@@ -307,5 +313,11 @@ void onUploadFrameData(PacketBase pb, NetPeer peer)
     for(int  i = 0;i <req.Cmds.Count;i++)
     {
         room.RoomState.OnReceiveCommand(req.Cmds[i]);
+    }
+
+    if (room.IsFrameCmdCollectAll(req.FrameIndex, room.RoomUserNum))
+    {
+        Console.WriteLine("收集完第{0}帧数据 开始同步给玩家", req.FrameIndex);
+        room.BroadcastFrameDataToUser(req.FrameIndex);
     }
 }

@@ -98,14 +98,19 @@ namespace BallSrv
         public bool CheckUserAllReady()
         {
             bool all_ready = true;
+            int ready_num = 0;
             foreach(var one in user_list)
             {
                 if(!one.IsReady)
                 {
-                    all_ready = false;
-                    break;
+                    all_ready = false;    
+                }
+                else
+                {
+                    ready_num++;
                 }
             }
+            Console.WriteLine("RoomId = {0} user count = {1} ready user = {2}",m_room_id,user_list.Count,ready_num);
             return all_ready;
         }
         public void AddUser(BallUserSession user)
@@ -173,6 +178,7 @@ namespace BallSrv
                     notify.Cmds.Add(cmd);
                 }
             }
+            BroadcastToUser(EventId.IdFrameDataNotify, 0, notify);
         }
     }
 

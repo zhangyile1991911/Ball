@@ -57,11 +57,11 @@ namespace BallSrv
         }
         public override void Update()
         {
-            bool all_ready = m_controlRoom.CheckUserAllReady();
-            if(all_ready)
-            {
-                m_controlRoom.RoomState = new RoomStateReady(m_controlRoom);
-            }
+            //bool all_ready = m_controlRoom.CheckUserAllReady();
+            //if(all_ready)
+            //{
+            //    m_controlRoom.RoomState = new RoomStateReady(m_controlRoom);
+            //}
         }
     }
 
@@ -87,7 +87,7 @@ namespace BallSrv
 
         public override void Update()
         {
-            if(m_controlRoom.IsAllUserAck)
+            if (m_controlRoom.IsAllUserAck)
             {
                 m_controlRoom.RoomState = new RoomStateGaming(m_controlRoom);
             }
@@ -112,6 +112,7 @@ namespace BallSrv
         {
             Console.WriteLine("RoomId {0} 进入游戏阶段", m_controlRoom.RoomId);
             m_logicTimer.Start();
+            m_controlRoom.ResetFrameDic();
             StartGameReq req = new StartGameReq();
             req.RoomId = m_controlRoom.RoomId;
             m_controlRoom.BroadcastToUser(EventId.IdStartGameReq, 0, req);
@@ -137,11 +138,8 @@ namespace BallSrv
 
         public override void OnReceiveCommand(Command cmd)
         {
+            //Console.WriteLine("OnReceiveCommand user_id = {0} frame_index = {1}",cmd.UserId,cmd.FrameIndex);
             m_controlRoom.AddFrame(cmd.FrameIndex, cmd.UserId, cmd);
-            if(m_controlRoom.IsFrameCmdCollectAll(cmd.FrameIndex,m_controlRoom.RoomUserNum))
-            {
-                m_controlRoom.BroadcastFrameDataToUser(cmd.FrameIndex);
-            }
         }
 
         public override void Update()
